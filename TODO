@@ -1,0 +1,4 @@
+Add game instructions.
+Update visuals.
+Add wins limiter (maybe 5).
+Need to check why "user-select: none;" is not working in Firefox and Chromium (it works fine in Chrome, Opera and Vivaldi).
