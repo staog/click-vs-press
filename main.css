@@ -1,61 +1,59 @@
-body {
-  background-color: #99ccff;
+body, * {
+  text-align: center;
+  color: black;
+  font-family: 'Indie Flower', cursive, Times, serif;
+
 }
-#wrapp {
+#wrap {
   width: 700px;
   height: 660px;
   border-radius: 8px;
-  box-shadow: 2px 2px 2px #eee, -2px -2px 2px #eee;
   margin: 30px auto;
-  background-color: #008080;
+  background-color: #36f;
+  box-shadow: 2px 2px 2px #333, -2px -2px 2px #333;
 }
-#player1,#player2 {
+#player1, #player2 {
   width: 300px;
   height: 400px;
   float: left;
   margin: 25px;
   line-height: 400px;
-  text-align: center;
   font-size: 88px;
-  color: #333;
   font-weight: bold;
   user-select: none;
-  border-radius: 7px;
-  box-shadow: 2px 2px 2px #eee, -2px -2px 2px #eee;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #333, -2px -2px 2px #333;
 }
 #player1 {
   background: yellow;
 }
 #player2 {
-  background: #99ff66;
+  background: #f90;
 }
 .clear {clear: both;}
 
-#player1WinDiv,#player2WinDiv {
+#player1WinDiv, #player2WinDiv {
   width: 300px;
   height: 60px;
   background: tomato;
   margin: 25px;
   float: left;
   line-height: 60px;
-  text-align: center;
   font-size: 36px;
-  color: #333;
   user-select: none;
   border-radius: 7px;
-  box-shadow: 2px 2px 2px #eee, -2px -2px 2px #eee;
+  box-shadow: 2px 2px 2px #333, -2px -2px 2px #333;
 }
 button {
   width: 600px;
   height: 60px;
   outline: none;
-  background: #ffcc66;
+  background: #47d147;
   line-height: 50px;
-  text-align: center;
   font-size: 37px;
-  color: #333;
   margin: 50px;
   margin-top: 10px;
   border-radius: 7px;
   user-select: none;
+  box-shadow: 2px 2px 2px #333, -2px -2px 2px #333;
 }
